@@ -5,7 +5,7 @@ async function renderMermaidElement(mermaidContainer: HTMLElement, writeOut: (me
     mermaidContainer.id = containerId;
 
     const id = `mermaid-${crypto.randomUUID()}`;
-    const source = mermaidContainer.textContent ?? '';
+    const source = mermaidContainer.textContent?.replace(/%%\+/g, '') ?? '';
     mermaidContainer.innerHTML = '';
 
     try {

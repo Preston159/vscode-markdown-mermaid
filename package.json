@@ -1,5 +1,5 @@
 {
-  "name": "markdown-mermaid",
+  "name": "markdown-mermaid-azure",
   "version": "1.19.0",
   "displayName": "Markdown Preview Mermaid Support",
   "description": "Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview",
@@ -11,13 +11,15 @@
     "diagram",
     "preview"
   ],
-  "publisher": "bierner",
+  "author": {
+    "name": "Preston Petrie"
+  },
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/mjbvz/vscode-markdown-mermaid.git"
+    "url": "https://github.com/preston159/vscode-markdown-mermaid.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-markdown-mermaid/issues"
+    "url": "https://github.com/preston159/vscode-markdown-mermaid/issues"
   },
   "engines": {
     "vscode": "^1.72.0"
